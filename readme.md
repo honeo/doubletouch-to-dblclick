@@ -3,14 +3,17 @@
 [doubletouch-to-dblclick](https://www.npmjs.com/package/doubletouch-to-dblclick)
 
 ## なにこれ
-一定時間内に2回タッチしたらダブルクリックイベントを発火する。
+一定時間内に同じ要素を連続してタップしたらダブルクリックイベントを発火する。
 
 ## 使い方
 ```sh
 $ npm i -S doubletouch-to-dblclick
 ```
 ```js
+// 読み込むだけ
 import 'doubletouch-to-dblclick';
+
+element.addEventListener('dblclick', listener);
 ```
 
 ## API
